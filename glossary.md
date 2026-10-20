@@ -82,3 +82,8 @@
 | ubiquitous language | 统一语言 | 团队建立一致的领域术语 |
 | resilience | 韧性 | 第 4 章“意大利性”例子 |
 | safety / security | 安全保障 / 安全性 | 第 4 章表格中区分生命或任务安全与信息安全 |
+| architecture kata | 架构 Kata | 用领域场景限时练习设计与权衡 |
+| customizability | 可定制性 | 按本地或特定需要调整行为 |
+| internationalization (i18n) | 国际化 | 面向不同地区或语言进行设计 |
+| sacrificial architecture | 可牺牲架构 | 保留原书称谓，需结合后续背景理解 |
+| Ivory Tower Architect | 象牙塔架构师 | 脱离实现团队做架构决策的反模式 |
