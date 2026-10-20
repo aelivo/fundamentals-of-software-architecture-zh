@@ -14,6 +14,9 @@
 | 第 6 章 衡量与治理架构特性 | [译稿](chapters/06-measuring-and-governing/translation.md) | [笔记](chapters/06-measuring-and-governing/notes.md) | 全文已翻译并校订（书内第 77–89 页）；含 4 幅原图、5 个代码示例及中文标签对照 |
 | 第 7 章 架构特性的作用范围 | [译稿](chapters/07-scope-of-architecture-characteristics/translation.md) | [笔记](chapters/07-scope-of-architecture-characteristics/notes.md) | 全文已翻译并校订（书内第 91–98 页）；含图 7-1 与中文标签对照 |
 | 第 8 章 基于组件的思维 | [译稿](chapters/08-component-based-thinking/translation.md) | [笔记](chapters/08-component-based-thinking/notes.md) | 全文已翻译并校订（书内第 99–116 页）；含 11 幅原图及中文标签对照 |
+| 第 9 章 基础 | [译稿](chapters/09-foundations/translation.md) | [笔记](chapters/09-foundations/notes.md) | 全文已翻译并校订（书内第 119–132 页）；含 9 幅原图及中文标签对照 |
+
+[第二部分导言：架构风格](parts/02-architecture-styles.md)已翻译。
 
 ## 原文定位
 

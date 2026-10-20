@@ -107,3 +107,13 @@
 | event storming | 事件风暴 | 本章用于组件发现，保留本书语境 |
 | workflow approach | 工作流方法 | 围绕角色参与的活动组织组件 |
 | system of record | 权威记录系统 | 保存并提供权威记录的系统或组件 |
+| unitary architecture | 单机一体式架构 | 与单体部署的 monolithic 概念区分 |
+| client/server | 客户端 / 服务器 | 常见两层划分 |
+| fallacies of distributed computing | 分布式计算谬误 | 关于网络与协作的八项错误假设 |
+| circuit breaker | 熔断器 | 对失败或不可用依赖的保护机制 |
+| tail latency | 尾延迟 | 分布尾部请求的较高延迟 |
+| stamp coupling | 印记耦合 | 传递复合数据结构而消费者只用其中部分 |
+| consumer-driven contract (CDC) | 消费者驱动契约 | 本章用于解耦服务数据需求 |
+| eventual consistency | 最终一致性 | 数据经过传播后达到一致状态 |
+| transaction saga | 事务 Saga | 分布式事务管理方法，具体机制需说明 |
+| event sourcing | 事件溯源 | 不与补偿机制自动等同 |
