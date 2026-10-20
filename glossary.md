@@ -117,3 +117,8 @@
 | eventual consistency | 最终一致性 | 数据经过传播后达到一致状态 |
 | transaction saga | 事务 Saga | 分布式事务管理方法，具体机制需说明 |
 | event sourcing | 事件溯源 | 不与补偿机制自动等同 |
+| closed / open layer | 封闭 / 开放层 | 请求不可绕过或可以绕过的层 |
+| layers of isolation | 隔离层 | 契约不变时隔离层内部变化 |
+| architecture sinkhole | 架构陷坑 | 请求逐层透传而无实质逻辑 |
+| mean time to recovery (MTTR) | 平均恢复时间 | 原书讨论单体恢复成本 |
+| mock / stub | 模拟 / 存根替代 | 用于隔离测试组件或层 |
