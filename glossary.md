@@ -72,3 +72,13 @@
 | Connascence of Timing (CoT) | 时机共变性 | 执行时机重要 |
 | Connascence of Values (CoV) | 值共变性 | 相关值必须共同变化 |
 | Connascence of Identity (CoI) | 身份共变性 | 多组件引用同一实体 |
+| explicit / implicit architecture characteristics | 显式 / 隐式架构特性 | 是否在需求文档或指示中明确给出 |
+| operational architecture characteristics | 运维架构特性 | 如性能、可用性、可靠性 |
+| structural architecture characteristics | 结构架构特性 | 如模块化、可维护性 |
+| cross-cutting architecture characteristics | 横切架构特性 | 跨越类别的设计约束与关注点 |
+| accessibility | 无障碍性 | 覆盖具有不同能力与特征的用户 |
+| interoperability / compatibility | 互操作性 / 兼容性 | 不直接视为同义词，按上下文区分 |
+| usability | 易用性 | 与 learnability 易学性区分 |
+| ubiquitous language | 统一语言 | 团队建立一致的领域术语 |
+| resilience | 韧性 | 第 4 章“意大利性”例子 |
+| safety / security | 安全保障 / 安全性 | 第 4 章表格中区分生命或任务安全与信息安全 |
