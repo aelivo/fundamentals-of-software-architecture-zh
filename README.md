@@ -19,9 +19,13 @@
 | 第 11 章 管道架构风格 | [译稿](chapters/11-pipeline-architecture/translation.md) | [笔记](chapters/11-pipeline-architecture/notes.md) | 全文已翻译并校订（书内第 143–148 页）；含 3 幅原图、Shell 示例和评分表中文转录 |
 | 第 12 章 微内核架构风格 | [译稿](chapters/12-microkernel-architecture/translation.md) | [笔记](chapters/12-microkernel-architecture/notes.md) | 全文已翻译并校订（书内第 149–161 页）；含 8 幅原图、代码片段和评分表中文转录 |
 | 第 13 章 基于服务的架构风格 | [译稿](chapters/13-service-based-architecture/translation.md) | [笔记](chapters/13-service-based-architecture/notes.md) | 全文已翻译并校订（书内第 163–177 页）；含 10 幅原图与评分表中文转录 |
-| 第 14 章 事件驱动架构风格 | [译稿](chapters/14-event-driven-architecture/translation.md) | [笔记](chapters/14-event-driven-architecture/notes.md) | 已至中介者拓扑结束（书内第 195 页）；含图 14-1–14-12、表 14-1–14-2；下一处为异步能力，本章未完成 |
+| 第 14 章 事件驱动架构风格 | [译稿](chapters/14-event-driven-architecture/translation.md) | [笔记](chapters/14-event-driven-architecture/notes.md) | 全文已翻译并校订（书内第 179–209 页）；含 22 幅原图、3 张权衡表和评分表中文转录 |
 
-[第二部分导言：架构风格](parts/02-architecture-styles.md)已翻译。
+[第一部分导言：基础](parts/01-foundations.md)与[第二部分导言：架构风格](parts/02-architecture-styles.md)已翻译。
+
+## 下一处翻译
+
+第 15 章 Space-Based Architecture Style（空间架构风格），书内第 211 页，PDF 第 231 页，从第一段开始。第 1–14 章已完成；第 15 章及以后尚未翻译。
 
 ## 原文定位
 

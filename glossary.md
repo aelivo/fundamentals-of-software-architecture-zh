@@ -141,3 +141,10 @@
 | initiating / processing event | 初始 / 处理事件 | 启动流程的事件与处理器完成动作后发布的事件 |
 | event processor / event channel | 事件处理器 / 事件通道 | 事件驱动架构的处理与通信要素 |
 | back pressure | 背压 | 下游处理速度影响上游或积压的反馈机制 |
+| responsiveness | 响应能力 | 尽早确认接受，与端到端处理性能区分 |
+| workflow event pattern | 工作流事件模式 | 委派错误修复后重新处理 |
+| correlation ID | 关联 ID | 将应答与原请求匹配 |
+| request-reply messaging | 请求—应答消息 | 在异步消息之上等待结果的通信模式 |
+| client acknowledge mode | 客户端确认模式 | 消费者完成后显式确认消息 |
+| last participant support (LPS) | 最后参与者支持 | 原书用于协调提交与确认的术语 |
+| competing consumers | 竞争消费者 | 多消费者分担队列工作 |
