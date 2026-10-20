@@ -98,3 +98,12 @@
 | synchronous / asynchronous connascence | 同步 / 异步共变性 | 本书扩展到服务通信的分析概念 |
 | independently deployable | 可独立部署 | 架构量子的定义条件之一 |
 | domain-driven design (DDD) | 领域驱动设计 | 复杂问题领域的建模与分解方法 |
+| technical / domain partitioning | 技术 / 领域划分 | 按技术能力或业务领域组织顶层组件 |
+| modular monolith | 模块化单体 | 单一部署单元内部按领域组织模块 |
+| Conway’s law | 康威定律 | 系统设计反映组织沟通结构 |
+| Inverse Conway Maneuver | 逆康威操作 | 调整团队和组织结构以促进期望架构 |
+| entity trap | 实体陷阱 | 机械将实体或数据库关系当作组件与工作流 |
+| actor/actions approach | 参与者 / 动作方法 | 从角色及其动作发现组件 |
+| event storming | 事件风暴 | 本章用于组件发现，保留本书语境 |
+| workflow approach | 工作流方法 | 围绕角色参与的活动组织组件 |
+| system of record | 权威记录系统 | 保存并提供权威记录的系统或组件 |
