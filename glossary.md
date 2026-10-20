@@ -131,3 +131,8 @@
 | plug-in registry | 插件注册表 | 记录插件及访问方式 |
 | happy path | 正常路径 | 通用且无特殊异常或定制的处理流程 |
 | adapter | 适配器 | 将第三方契约转换为核心标准契约 |
+| service-based architecture | 基于服务的架构 | 本书粗粒度领域服务风格，与 SOA、微服务分别讨论 |
+| domain service | 领域服务 | 本章指粗粒度独立部署单元，注意与其他语境区分 |
+| API facade | API 外观 | 对外统一入口并编排内部请求 |
+| orchestration / choreography | 编排 / 协同 | 中央协调与服务间自主协作 |
+| service locator pattern | 服务定位器模式 | 根据服务标识定位访问目标 |

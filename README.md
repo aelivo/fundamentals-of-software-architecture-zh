@@ -18,6 +18,7 @@
 | 第 10 章 分层架构风格 | [译稿](chapters/10-layered-architecture/translation.md) | [笔记](chapters/10-layered-architecture/notes.md) | 全文已翻译并校订（书内第 133–141 页）；含 6 幅原图与评分表中文转录 |
 | 第 11 章 管道架构风格 | [译稿](chapters/11-pipeline-architecture/translation.md) | [笔记](chapters/11-pipeline-architecture/notes.md) | 全文已翻译并校订（书内第 143–148 页）；含 3 幅原图、Shell 示例和评分表中文转录 |
 | 第 12 章 微内核架构风格 | [译稿](chapters/12-microkernel-architecture/translation.md) | [笔记](chapters/12-microkernel-architecture/notes.md) | 全文已翻译并校订（书内第 149–161 页）；含 8 幅原图、代码片段和评分表中文转录 |
+| 第 13 章 基于服务的架构风格 | [译稿](chapters/13-service-based-architecture/translation.md) | [笔记](chapters/13-service-based-architecture/notes.md) | 全文已翻译并校订（书内第 163–177 页）；含 10 幅原图与评分表中文转录 |
 
 [第二部分导言：架构风格](parts/02-architecture-styles.md)已翻译。
 
