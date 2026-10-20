@@ -50,3 +50,25 @@
 | technical debt story | 技术债务故事 | 纳入迭代的技术债务工作项 |
 | architecture story | 架构故事 | 纳入迭代的架构工作项 |
 | code review | 代码评审 | 本章作为保持技术参与的一种方法 |
+| modularity | 模块化 | 相关代码的逻辑分组，不必物理分离 |
+| module / component | 模块 / 组件 | 保留本书对两者的区分 |
+| cohesion | 内聚 | 部分应放在一起的关联程度 |
+| coupling | 耦合 | 代码元素之间的依赖与连接 |
+| connascence | 共变性 | 一方变化要求另一方同步修改以保持正确；不等同于类型系统中的协变 |
+| afferent coupling | 传入耦合 | 指向当前代码制品的连接 |
+| efferent coupling | 传出耦合 | 当前代码制品指向其他制品的连接 |
+| abstractness | 抽象度 | 本版公式与说明存在疑点，见第 3 章译注 |
+| instability | 不稳定性 | 传出耦合占传入与传出耦合总和的比例 |
+| distance from the main sequence | 到主序列的距离 | 保留原书公式与图示 |
+| Lack of Cohesion in Methods (LCOM) | 方法内聚缺失度 | 结构指标，版本定义需要核对 |
+| essential complexity | 本质复杂性 | 问题本身带来的复杂性 |
+| strength / locality / degree | 强度 / 局部性 / 程度 | 共变性的三个属性 |
+| Connascence of Name (CoN) | 名称共变性 | 多组件对名称达成一致 |
+| Connascence of Type (CoT) | 类型共变性 | 与时机共变性同用 CoT，按上下文区分 |
+| Connascence of Meaning (CoM) | 含义共变性 | 又称约定共变性 CoC |
+| Connascence of Position (CoP) | 位置共变性 | 值的顺序需一致 |
+| Connascence of Algorithm (CoA) | 算法共变性 | 算法需一致 |
+| Connascence of Execution (CoE) | 执行共变性 | 执行顺序重要 |
+| Connascence of Timing (CoT) | 时机共变性 | 执行时机重要 |
+| Connascence of Values (CoV) | 值共变性 | 相关值必须共同变化 |
+| Connascence of Identity (CoI) | 身份共变性 | 多组件引用同一实体 |
