@@ -87,3 +87,10 @@
 | internationalization (i18n) | 国际化 | 面向不同地区或语言进行设计 |
 | sacrificial architecture | 可牺牲架构 | 保留原书称谓，需结合后续背景理解 |
 | Ivory Tower Architect | 象牙塔架构师 | 脱离实现团队做架构决策的反模式 |
+| performance budget | 性能预算 | 对特定应用部分设定的性能或资源上限 |
+| first contentful paint | 首次内容绘制 | 保留本版使用的性能指标名称 |
+| first CPU idle | 首次 CPU 空闲 | 本版性能指标名称，不推断当前推荐性 |
+| governance | 治理 | 通过规则与反馈影响开发和架构演进 |
+| cyclic dependency | 循环依赖 | 组件或包之间形成依赖环 |
+| test-driven development (TDD) | 测试驱动开发 | 先写测试，再实现通过测试的代码 |
+| chaos engineering | 混沌工程 | 通过模拟故障验证系统承受能力 |
