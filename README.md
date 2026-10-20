@@ -6,7 +6,7 @@
 
 | 章节 | 译稿 | 学习笔记 | 进度 |
 | --- | --- | --- | --- |
-| 第 1 章 引言 | [译稿](chapters/01-introduction/translation.md) | [笔记](chapters/01-introduction/notes.md) | 前两段（含引文）已翻译并对照原文校订；其余未开始 |
+| 第 1 章 引言 | [译稿](chapters/01-introduction/translation.md) | [笔记](chapters/01-introduction/notes.md) | 全文已翻译并校订（书内第 1–20 页）；含 7 幅原图及中文标签对照 |
 
 ## 原文定位
 
