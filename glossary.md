@@ -136,3 +136,8 @@
 | API facade | API 外观 | 对外统一入口并编排内部请求 |
 | orchestration / choreography | 编排 / 协同 | 中央协调与服务间自主协作 |
 | service locator pattern | 服务定位器模式 | 根据服务标识定位访问目标 |
+| event-driven architecture | 事件驱动架构 | 组件异步接收与处理事件 |
+| broker / mediator topology | 代理 / 中介者拓扑 | 无中央工作流控制与中央协调的两类拓扑 |
+| initiating / processing event | 初始 / 处理事件 | 启动流程的事件与处理器完成动作后发布的事件 |
+| event processor / event channel | 事件处理器 / 事件通道 | 事件驱动架构的处理与通信要素 |
+| back pressure | 背压 | 下游处理速度影响上游或积压的反馈机制 |
