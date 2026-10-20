@@ -12,6 +12,7 @@
 | 第 4 章 架构特性的定义 | [译稿](chapters/04-architecture-characteristics-defined/translation.md) | [笔记](chapters/04-architecture-characteristics-defined/notes.md) | 全文已翻译并校订（书内第 55–64 页）；含 2 幅原图、3 张表及中文标签对照 |
 | 第 5 章 识别架构特性 | [译稿](chapters/05-identifying-architectural-characteristics/translation.md) | [笔记](chapters/05-identifying-architectural-characteristics/notes.md) | 全文已翻译并校订（书内第 65–75 页）；含 2 幅原图、表 5-1 及中文标签对照 |
 | 第 6 章 衡量与治理架构特性 | [译稿](chapters/06-measuring-and-governing/translation.md) | [笔记](chapters/06-measuring-and-governing/notes.md) | 全文已翻译并校订（书内第 77–89 页）；含 4 幅原图、5 个代码示例及中文标签对照 |
+| 第 7 章 架构特性的作用范围 | [译稿](chapters/07-scope-of-architecture-characteristics/translation.md) | [笔记](chapters/07-scope-of-architecture-characteristics/notes.md) | 全文已翻译并校订（书内第 91–98 页）；含图 7-1 与中文标签对照 |
 
 ## 原文定位
 

@@ -94,3 +94,7 @@
 | cyclic dependency | 循环依赖 | 组件或包之间形成依赖环 |
 | test-driven development (TDD) | 测试驱动开发 | 先写测试，再实现通过测试的代码 |
 | chaos engineering | 混沌工程 | 通过模拟故障验证系统承受能力 |
+| bounded context | 限界上下文 | DDD 中模型语义的局部边界，保留本书说明 |
+| synchronous / asynchronous connascence | 同步 / 异步共变性 | 本书扩展到服务通信的分析概念 |
+| independently deployable | 可独立部署 | 架构量子的定义条件之一 |
+| domain-driven design (DDD) | 领域驱动设计 | 复杂问题领域的建模与分解方法 |
