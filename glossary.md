@@ -126,3 +126,8 @@
 | pipe / filter | 管道 / 过滤器 | 通信通道与处理步骤 |
 | producer / transformer / tester / consumer | 生产者 / 转换器 / 测试器 / 消费者 | 本章四类过滤器 |
 | telemetry | 遥测 | 服务运行信息 |
+| microkernel / plug-in architecture | 微内核 / 插件架构 | 稳定核心与独立插件协作 |
+| core system | 核心系统 | 运行所需最小功能或通用流程 |
+| plug-in registry | 插件注册表 | 记录插件及访问方式 |
+| happy path | 正常路径 | 通用且无特殊异常或定制的处理流程 |
+| adapter | 适配器 | 将第三方契约转换为核心标准契约 |
