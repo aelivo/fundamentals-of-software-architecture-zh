@@ -35,7 +35,7 @@
 | 第 23 章 协商与领导技能 | [译稿](chapters/23-negotiation-and-leadership/translation.md) | [笔记](chapters/23-negotiation-and-leadership/notes.md) | 全文已翻译并校订（书内第 347–363 页）；含 5 幅原图、可用性表与完整对话译文 |
 | 第 24 章 规划职业发展道路 | [译稿](chapters/24-developing-a-career-path/translation.md) | [笔记](chapters/24-developing-a-career-path/notes.md) | 全文已翻译并校订（书内第 365–372 页）；含 3 幅原图及中文标签对照 |
 
-[第一部分导言：基础](parts/01-foundations.md)与[第二部分导言：架构风格](parts/02-architecture-styles.md)、[第三部分导言：技术与软技能](parts/03-techniques-and-soft-skills.md)已翻译。
+[第一部分导言：基础](parts/01-foundations.md)与[第二部分导言：架构风格](parts/02-architecture-styles.md)、[第三部分导言：方法与软技能](parts/03-techniques-and-soft-skills.md)已翻译。
 
 [前言、出版说明与致谢](front-matter/preface.md)已翻译。
 
