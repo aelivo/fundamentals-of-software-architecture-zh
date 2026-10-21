@@ -193,3 +193,10 @@
 | architecturally significant | 具有架构显著性 | 影响结构、重要特性、依赖、接口或构建技术 |
 | compliance | 遵从性 | 本章指如何验证实际实现遵循架构决定 |
 | superseded | 已被取代 | ADR 保留历史并链接到新决定的状态 |
+| risk matrix | 风险矩阵 | 按总体影响与发生可能性界定风险 |
+| risk assessment | 风险评估 | 按维度和领域汇总架构风险的报告 |
+| risk storming | 风险风暴 | 独立识别、共同达成共识并缓解风险的协作练习 |
+| risk mitigation | 风险缓解 | 降低已识别风险的措施与设计修改 |
+| direction of risk | 风险变化方向 | 评分背后的改善、稳定或恶化趋势 |
+| Ambulance Pattern | 救护车模式 | 本章通过分开消息通道，优先处理护士请求 |
+| service-level agreement / objective | 服务级别协议 / 目标 | SLA / SLO；约束性质按本章示例语境理解 |
