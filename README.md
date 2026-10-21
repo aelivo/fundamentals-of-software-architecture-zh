@@ -33,9 +33,11 @@
 
 [第一部分导言：基础](parts/01-foundations.md)与[第二部分导言：架构风格](parts/02-architecture-styles.md)、[第三部分导言：技术与软技能](parts/03-techniques-and-soft-skills.md)已翻译。
 
+[附录：自我评估问题](appendices/01-self-assessment-questions.md)已完整翻译，保留 24 章全部题目与原编号。
+
 ## 下一处翻译
 
-附录 Self-Assessment Questions（自我评估问题），书内第 373 页，PDF 第 393 页，从第 1 章问题开始。正文第 1–24 章及三个分部导言已完成；附录与前置材料尚未翻译。
+前言 Preface: Invalidating Axioms（让公理失效），PDF 第 15 页，从第一段开始。正文第 1–24 章、三个分部导言和附录已完成；前置材料尚未翻译。
 
 ## 原文定位
 
