@@ -27,12 +27,13 @@
 | 第 19 章 架构决策 | [译稿](chapters/19-architecture-decisions/translation.md) | [笔记](chapters/19-architecture-decisions/notes.md) | 全文已翻译并校订（书内第 281–295 页）；含 5 幅原图、完整 ADR 示例翻译及代码片段 |
 | 第 20 章 分析架构风险 | [译稿](chapters/20-analyzing-architecture-risk/translation.md) | [笔记](chapters/20-analyzing-architecture-risk/notes.md) | 全文已翻译并校订（书内第 297–314 页）；含 13 幅原图、风险矩阵与趋势表中文转录 |
 | 第 21 章 绘制与展示架构 | [译稿](chapters/21-diagramming-and-presenting/translation.md) | [笔记](chapters/21-diagramming-and-presenting/notes.md) | 全文已翻译并校订（书内第 315–324 页）；含 4 幅原图及中文标签对照 |
+| 第 22 章 让团队高效工作 | [译稿](chapters/22-making-teams-effective/translation.md) | [笔记](chapters/22-making-teams-effective/notes.md) | 全文已翻译并校订（书内第 325–346 页）；含 13 幅原图、2 张评分表及清单全文转录 |
 
 [第一部分导言：基础](parts/01-foundations.md)与[第二部分导言：架构风格](parts/02-architecture-styles.md)、[第三部分导言：技术与软技能](parts/03-techniques-and-soft-skills.md)已翻译。
 
 ## 下一处翻译
 
-第 22 章 Making Teams Effective（让团队高效工作），书内第 325 页，PDF 第 345 页，从第一段开始。第 1–21 章已完成；第 22 章及以后尚未翻译。
+第 23 章 Negotiation and Leadership Skills（协商与领导技能），书内第 347 页，PDF 第 367 页，从第一段开始。第 1–22 章已完成；第 23 章及以后尚未翻译。
 
 ## 原文定位
 

@@ -207,3 +207,12 @@
 | incremental builds | 渐进呈现 | 在演示中逐步揭示信息 |
 | infodeck | 信息幻灯片 | 用于独立阅读而非配合现场演讲的幻灯片资料 |
 | Invisibility | 隐身 | 插入黑色空白页，把注意力还给演讲者的模式 |
+| control freak / armchair architect | 控制狂 / 安乐椅架构师 | 本章用于描述过度控制和脱离实施的行为 |
+| Elastic Leadership | 弹性领导力 | 按团队和项目因素调整控制与参与程度 |
+| process loss | 过程损耗 | 团队潜能与实际生产力的差额 |
+| pluralistic ignorance | 多元无知 | 私下反对却因误判他人看法而公开附和 |
+| diffusion of responsibility | 责任分散 | 人数增加时责任归属被弱化的现象 |
+| Hawthorne effect | 霍桑效应 | 被观察的认知可能影响行为，本章按作者概括使用 |
+| definition of done | 完成的定义 | 明确何时可以声称代码或任务完成 |
+| absorbed exception | 被吞掉的异常 | 异常被捕获却未得到适当处理 |
+| layered stack | 分层技术栈 | 本章特指构成应用的第三方库集合 |
