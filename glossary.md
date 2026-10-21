@@ -200,3 +200,10 @@
 | direction of risk | 风险变化方向 | 评分背后的改善、稳定或恶化趋势 |
 | Ambulance Pattern | 救护车模式 | 本章通过分开消息通道，优先处理护士请求 |
 | service-level agreement / objective | 服务级别协议 / 目标 | SLA / SLO；约束性质按本章示例语境理解 |
+| representational consistency | 表现一致性 | 切换视图前保持整体与局部关系清楚 |
+| Irrational Artifact Attachment | 不理性的制品依恋 | 对制品的依恋随投入制作时间增加的反模式 |
+| stencil | 图形库 | 组织常用视觉组件以便复用和保持一致 |
+| magnets | 吸附点 | 绘图工具中连接线自动吸附的位置 |
+| incremental builds | 渐进呈现 | 在演示中逐步揭示信息 |
+| infodeck | 信息幻灯片 | 用于独立阅读而非配合现场演讲的幻灯片资料 |
+| Invisibility | 隐身 | 插入黑色空白页，把注意力还给演讲者的模式 |
