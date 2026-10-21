@@ -176,7 +176,7 @@ ADR 状态部分的另一个重要方面，是促使架构师与上司或首席�
 一旦建立并就相应标准及限额达成一致，例如“超过 5,000 欧元的费用必须由架构评审委员会批准”，就应该清楚记录这些标准，让所有创建 ADR 的架构师知道，何时可以、何时不能批准自己的架构决策。
 
 <!-- CH19-050 | PDF p. 308 | 译注 -->
-> 译注：上面的审批规则、金额和 RFC 日期都是书中的治理建议或示例，不是本翻译工程新增的操作或审批要求。
+> 译注：上面的审批规则、金额和 RFC 日期都是作者给出的治理建议或示例。
 
 <!-- CH19-051 | PDF p. 308 | 标题 -->
 #### 背景
@@ -325,7 +325,7 @@ public void shared_services_should_reside_in_services_layer() {
 后果部分也是架构师判断某项标准是否有效、是否应该制定的好地方。在这里，架构师必须思考并记录，制定该标准会带来什么影响与后果。通过分析后果，架构师最终可能决定不采用这一标准。
 
 <!-- CH19-091 | PDF p. 313 | 译注 -->
-> 译注：关于 Git、wiki、文档标准及工具的评价均按本版语境保留。它们是作者的建议与论述，不会自动改变本翻译工程的存储方式。
+> 译注：关于 Git、wiki、文档标准及工具的评价均按本版语境保留。这些是作者在本书语境下提出的存储建议。
 
 <!-- 书内第 294 页，PDF 第 314 页。 -->
 
@@ -336,7 +336,7 @@ public void shared_services_should_reside_in_services_layer() {
 我们持续讨论的第 95 页“案例研究：Going, Going, Gone”中，存在许多架构决策。例如，采用事件驱动微服务，分开竞拍者和拍卖师用户界面，使用实时传输协议（Real-time Transport Protocol，RTP）捕获视频，使用单一 API 层，以及采用发布—订阅消息，这些只是该拍卖系统数十项架构决策中的一小部分。系统中的每项架构决策，无论看起来多么显而易见，都应该记录下来并说明依据。
 
 <!-- CH19-094 | PDF p. 314 | 正文 -->
-图 19-4 展示了 Going, Going, Gone 拍卖系统的一项架构决策：在竞价捕获、竞价流传输和竞价跟踪服务之间，采用发布—订阅（publish-and-subscribe，pub/sub）消息。
+图 19-4 展示了 Going, Going, Gone 拍卖系统的一项架构决策：在出价捕获、出价流传输和出价跟踪服务之间，采用发布—订阅（publish-and-subscribe，pub/sub）消息。
 
 <!-- CH19-095 | PDF p. 314 | 图表 -->
 ![图 19-4 在服务之间使用发布—订阅](images/figure-19-4.png)
@@ -371,19 +371,19 @@ public void shared_services_should_reside_in_services_layer() {
 **背景**
 
 <!-- CH19-105 | PDF p. 315 | 正文 -->
-竞价捕获服务在收到在线竞拍者的出价，或拍卖师转来的现场竞拍者出价后，必须把出价转发给竞价流传输服务和竞拍者跟踪服务。可以通过异步点对点（p2p）消息、异步发布—订阅（pub/sub）消息，或者经由在线拍卖 API 层的 REST 来实现。
+出价捕获服务在收到在线竞拍者的出价，或拍卖师转来的现场竞拍者出价后，必须把出价转发给出价流传输服务和竞拍者跟踪服务。可以通过异步点对点（p2p）消息、异步发布—订阅（pub/sub）消息，或者经由在线拍卖 API 层的 REST 来实现。
 
 <!-- CH19-106 | PDF p. 315 | 正文 -->
 **决策**
 
 <!-- CH19-107 | PDF p. 315 | 正文 -->
-我们将在竞价捕获服务、竞价流传输服务和竞拍者跟踪服务之间，使用异步发布—订阅消息。
+我们将在出价捕获服务、出价流传输服务和竞拍者跟踪服务之间，使用异步发布—订阅消息。
 
 <!-- CH19-108 | PDF p. 315 | 正文 -->
-竞价捕获服务不需要竞价流传输服务或竞拍者跟踪服务返回任何信息。
+出价捕获服务不需要出价流传输服务或竞拍者跟踪服务返回任何信息。
 
 <!-- CH19-109 | PDF p. 315 | 正文 -->
-竞价流传输服务必须严格按照竞价捕获服务接受出价的顺序接收出价。使用消息和队列会自动保证数据流中的出价顺序。
+出价流传输服务必须严格按照出价捕获服务接受出价的顺序接收出价。使用消息和队列会自动保证数据流中的出价顺序。
 
 <!-- CH19-110 | PDF p. 315 | 正文 -->
 使用异步发布—订阅消息，将提高竞价过程的性能，并允许对竞价信息进行扩充。
@@ -404,7 +404,7 @@ public void shared_services_should_reside_in_services_layer() {
 **遵从性**
 
 <!-- CH19-116 | PDF p. 315 | 正文 -->
-我们将定期进行人工代码和设计评审，确保竞价捕获服务、竞价流传输服务和竞拍者跟踪服务之间使用异步发布—订阅消息。
+我们将定期进行人工代码和设计评审，确保出价捕获服务、出价流传输服务和竞拍者跟踪服务之间使用异步发布—订阅消息。
 
 <!-- CH19-117 | PDF p. 315 | 正文 -->
 **备注**
@@ -415,7 +415,7 @@ public void shared_services_should_reside_in_services_layer() {
 - 最后更新：Subashini Nadella 于 2020 年 4 月 15 日更新。
 
 <!-- CH19-119 | PDF p. 315 | 译注 -->
-> 译注：图 19-5 使用 Bidder Tracker Service，图 19-4 与此前正文则使用 Bid Tracker Service；上面图内转录分别按原文译作“竞拍者跟踪服务”和“竞价跟踪服务”，不无声统一。图中的“自动保证顺序”及无需额外安全检查，是示例 ADR 的陈述和权衡结论，不是对任意消息实现或系统的通用保证，也不是本工程的实施指令。
+> 译注：图 19-5 使用 Bidder Tracker Service，图 19-4 与此前正文则使用 Bid Tracker Service；上面图内转录分别按原文译作“竞拍者跟踪服务”和“出价跟踪服务”，不无声统一。图中的“自动保证顺序”及无需额外安全检查，是示例 ADR 的陈述和权衡结论，不是对任意消息实现或系统的通用保证，具体实现仍须验证。
 
 <!-- CH19-120 | PDF p. 315 | 分隔符 -->
 ---
@@ -429,5 +429,5 @@ public void shared_services_should_reside_in_services_layer() {
 | 图 19-1 | ADR Format → ADR 格式；Title → 标题：简短描述架构决策；Status → 状态：提议、已接受、已被取代；Context → 背景：什么迫使我做出这个决定？；Decision → 决策：决定及对应依据；Consequences → 后果：这一决定的影响是什么？；Compliance → 遵从性：如何确保遵循此决定？；Notes → 备注：作者等决策元数据 |
 | 图 19-2 | Presentation Layer → 表现层；Business Layer → 业务层；Services Layer → 服务层；Persistence Layer → 持久化层；Database Layer → 数据库层；Component → 组件；Closed → 封闭；Open → 开放 |
 | 图 19-3 | architecture decisions → 架构决策；application → 应用；common → 通用；atp / pstd → 示例应用目录名；integration → 集成；enterprise → 企业 |
-| 图 19-4 | Bids → 出价；Winner → 获胜者；Bid Capture Service → 竞价捕获服务；Bid Streamer Service → 竞价流传输服务；Bid Tracker Service → 竞价跟踪服务；Use of pub/sub messaging between bidding services → 在竞价服务之间使用发布—订阅消息 |
+| 图 19-4 | Bids → 出价；Winner → 获胜者；Bid Capture Service → 出价捕获服务；Bid Streamer Service → 出价流传输服务；Bid Tracker Service → 出价跟踪服务；Use of pub/sub messaging between bidding services → 在竞价服务之间使用发布—订阅消息 |
 | 图 19-5 | 全文中文转录见正文；Status / Context / Decision / Consequences / Compliance / Notes → 状态 / 背景 / 决策 / 后果 / 遵从性 / 备注 |

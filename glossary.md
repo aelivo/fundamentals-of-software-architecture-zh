@@ -138,7 +138,7 @@
 | service locator pattern | 服务定位器模式 | 根据服务标识定位访问目标 |
 | event-driven architecture | 事件驱动架构 | 组件异步接收与处理事件 |
 | broker / mediator topology | 代理 / 中介者拓扑 | 无中央工作流控制与中央协调的两类拓扑 |
-| initiating / processing event | 初始 / 处理事件 | 启动流程的事件与处理器完成动作后发布的事件 |
+| initiating / processing event | 初始 / 处理事件 | 初始事件启动流程；处理事件推进流程，其产生方与语义因代理／中介者拓扑而异 |
 | event processor / event channel | 事件处理器 / 事件通道 | 事件驱动架构的处理与通信要素 |
 | back pressure | 背压 | 下游处理速度影响上游或积压的反馈机制 |
 | responsiveness | 响应能力 | 尽早确认接受，与端到端处理性能区分 |
@@ -188,7 +188,7 @@
 | Covering Your Assets anti-pattern | 明哲保身反模式 | 因害怕犯错而回避或推迟决策 |
 | Groundhog Day anti-pattern | 土拨鼠之日反模式 | 不知道决策理由，导致反复讨论 |
 | Email-Driven Architecture anti-pattern | 邮件驱动架构反模式 | 决策散落邮件，难以发现、维护与实施 |
-| last responsible moment | 最后负责时刻 | 信息足够且尚未阻塞开发的决策时点 |
+| last responsible moment | 最后负责任时点 | 信息足够且尚未阻塞开发的决策时点 |
 | Analysis Paralysis | 分析瘫痪 | 持续讨论分析却不做决定 |
 | architecturally significant | 具有架构显著性 | 影响结构、重要特性、依赖、接口或构建技术 |
 | compliance | 遵从性 | 本章指如何验证实际实现遵循架构决定 |
@@ -233,10 +233,14 @@
 | 英文 | 当前译法 | 校译依据 |
 | --- | --- | --- |
 | rates rally | 利率市场走强 | 保留英文；避免误解为利率数值上升，核验资料见 [第 1 章校译记录](reviews/chapter-01-review.md) |
+| evolutionary（架构评分） | 可演进性 | 第 10–17 章评分表统一，区别于单次变更的敏捷性 |
+| Bid Capture / Bid Tracker / Bid Streamer | 出价捕获 / 出价跟踪 / 出价流传输 | 同名组件跨章一致；Bidder Tracker 原图差异保留为竞拍者跟踪 |
+| techniques（第三部分） | 方法 | 区别于 technical aspects，见分部导言校译记录 |
+| spike | 限时技术探索 | 为了解技术或验证假设开展的探索工作，第 24 章 |
 
-本轮第 1 章统一用语：Persistence Layer 为“持久化层”，Workflow Owner 为“工作流所有者”，negotiation 在本章语境译为“协商”。其他章节在各自校译时同步核对，不表示已完成全书术语检查。
+本轮第 1 章统一用语：Persistence Layer 为“持久化层”，Workflow Owner 为“工作流所有者”，negotiation 在本章语境译为“协商”。跨章术语收尾记录见 [final-review.md](reviews/final-review.md)。
 
-第 2 章校译用语：Bid Producer / Bid Capture / Bid Tracking / Bid Analytics 分别为“出价生成／出价捕获／出价跟踪／出价分析”；bidder 为“竞拍者”，publish-and-subscribe 为“发布—订阅”。Capture 不仅是 receive，不再译为“接收”。本次只核对该章，其他章节随后逐章统一。
+第 2 章校译用语：Bid Producer / Bid Capture / Bid Tracking / Bid Analytics 分别为“出价生成／出价捕获／出价跟踪／出价分析”；bidder 为“竞拍者”，publish-and-subscribe 为“发布—订阅”。Capture 不仅是 receive，不再译为“接收”。跨章同名组件沿用此译法。
 
 
 第 4 章校译用语：discrete components 译为“彼此分立的组件”，不额外推导为组件没有依赖或可独立部署。nonfunctional requirements 仍为“非功能性需求”；作者对英文词义的顾虑另用译注说明。
