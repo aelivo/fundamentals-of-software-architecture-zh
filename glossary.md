@@ -227,3 +227,11 @@
 | Hold / Assess / Trial / Adopt | 暂缓 / 评估 / 试用 / 采用 | 本章雷达由外至内的四个环 |
 | strong / weak / potential links | 强 / 弱 / 潜在联系 | 本章社交关系的三个层次 |
 | technology portfolio | 技术组合 | 将技能与技术投入作为整体规划 |
+
+## 本轮校译中新增或修订的术语
+
+| 英文 | 当前译法 | 校译依据 |
+| --- | --- | --- |
+| rates rally | 利率市场走强 | 保留英文；避免误解为利率数值上升，核验资料见 [第 1 章校译记录](reviews/chapter-01-review.md) |
+
+本轮第 1 章统一用语：Persistence Layer 为“持久化层”，Workflow Owner 为“工作流所有者”，negotiation 在本章语境译为“协商”。其他章节在各自校译时同步核对，不表示已完成全书术语检查。
