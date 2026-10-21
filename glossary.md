@@ -240,3 +240,6 @@
 
 
 第 4 章校译用语：discrete components 译为“彼此分立的组件”，不额外推导为组件没有依赖或可独立部署。nonfunctional requirements 仍为“非功能性需求”；作者对英文词义的顾虑另用译注说明。
+
+
+第 5 章校译用语：driving architectural characteristics 译为“主导架构设计的架构特性”。scalability／elasticity 沿用“可扩展性／弹性”，保留本章对用户规模与突发负载的区分。
