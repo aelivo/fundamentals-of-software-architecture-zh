@@ -243,3 +243,6 @@
 
 
 第 5 章校译用语：driving architectural characteristics 译为“主导架构设计的架构特性”。scalability／elasticity 沿用“可扩展性／弹性”，保留本章对用户规模与突发负载的区分。
+
+
+第 6 章校译用语：discrete behavior 在 TDD 语境译为“各个具体行为”，不额外推导为行为之间没有依赖；治理中的 respect layers 译为“遵守分层约束”。
