@@ -185,3 +185,11 @@
 | Backends for Frontends (BFF) | 面向前端的后端 | 针对不同前端适配后端输出 |
 | semantic coupling | 语义耦合 | 业务含义或上下文使各部分相互依赖 |
 | race condition | 竞态条件 | 结果依赖并发执行时序 |
+| Covering Your Assets anti-pattern | 明哲保身反模式 | 因害怕犯错而回避或推迟决策 |
+| Groundhog Day anti-pattern | 土拨鼠之日反模式 | 不知道决策理由，导致反复讨论 |
+| Email-Driven Architecture anti-pattern | 邮件驱动架构反模式 | 决策散落邮件，难以发现、维护与实施 |
+| last responsible moment | 最后负责时刻 | 信息足够且尚未阻塞开发的决策时点 |
+| Analysis Paralysis | 分析瘫痪 | 持续讨论分析却不做决定 |
+| architecturally significant | 具有架构显著性 | 影响结构、重要特性、依赖、接口或构建技术 |
+| compliance | 遵从性 | 本章指如何验证实际实现遵循架构决定 |
+| superseded | 已被取代 | ADR 保留历史并链接到新决定的状态 |
