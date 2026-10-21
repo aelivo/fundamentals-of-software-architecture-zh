@@ -148,3 +148,20 @@
 | client acknowledge mode | 客户端确认模式 | 消费者完成后显式确认消息 |
 | last participant support (LPS) | 最后参与者支持 | 原书用于协调提交与确认的术语 |
 | competing consumers | 竞争消费者 | 多消费者分担队列工作 |
+| space-based architecture | 空间架构 | 以处理单元和内存数据网格承担事务处理的架构风格 |
+| tuple space | 元组空间 | 通过共享空间通信的概念；本章名称来源 |
+| processing unit | 处理单元 | 包含应用逻辑、内存数据网格及复制引擎的单元 |
+| virtualized middleware | 虚拟化中间件 | 管理和协调处理单元的基础设施组件集合 |
+| messaging / data / processing grid | 消息 / 数据 / 处理网格 | 分别承担请求分发、数据协调和请求编排 |
+| deployment manager | 部署管理器 | 按负载动态启动和关闭处理单元实例 |
+| data pump / reverse data pump | 数据泵 / 反向数据泵 | 异步传递更新或恢复数据的通道 |
+| data writer / data reader | 数据写入器 / 数据读取器 | 封装数据库写入与读取的组件 |
+| data abstraction layer | 数据抽象层 | 用独立契约解耦缓存模式和数据库结构 |
+| replicated caching | 复制式缓存 | 本章中各处理单元保存并同步同名缓存副本 |
+| distributed caching | 分布式缓存 | 本章特指外部集中式缓存模型；不泛指全部现实实现 |
+| data collision | 数据冲突 | 复制窗口内并发修改相同数据导致的冲突 |
+| replication latency | 复制延迟 | 更新在缓存实例间传播所需时间 |
+| near-cache | 近端缓存 | 本地局部前端缓存与完整后备缓存组成的混合模型 |
+| front cache / full backing cache | 前端缓存 / 完整后备缓存 | 本地子集与外部完整数据集 |
+| eviction policy | 淘汰策略 | 缓存需要空间时选择移除条目的规则 |
+| on-premises | 本地部署 | 相对云端，部署在组织本地环境 |
