@@ -249,3 +249,6 @@
 
 
 第 7 章校译用语：bidder 统一为“竞拍者”，auctioneer 为“拍卖师”，不混淆角色；fire-and-forget 译为“发送后不等待响应”，保留原文对异步调用“允许”这种语义的限定。
+
+
+第 8 章校译用语：Purchase 为“购买”，BidCapture 为“出价捕获”，Auctioneer Capture 为“拍卖师出价捕获”，Bidder 为“竞拍者”；Rational Unified Process 保留 Rational，译为“Rational 统一过程”。discrete workflows 在本章译为“各个工作流”，与原文明写 independent 的情形区分。
