@@ -246,3 +246,6 @@
 
 
 第 6 章校译用语：discrete behavior 在 TDD 语境译为“各个具体行为”，不额外推导为行为之间没有依赖；治理中的 respect layers 译为“遵守分层约束”。
+
+
+第 7 章校译用语：bidder 统一为“竞拍者”，auctioneer 为“拍卖师”，不混淆角色；fire-and-forget 译为“发送后不等待响应”，保留原文对异步调用“允许”这种语义的限定。
