@@ -216,3 +216,9 @@
 | definition of done | 完成的定义 | 明确何时可以声称代码或任务完成 |
 | absorbed exception | 被吞掉的异常 | 异常被捕获却未得到适当处理 |
 | layered stack | 分层技术栈 | 本章特指构成应用的第三方库集合 |
+| facilitation | 促进 | 帮助讨论、协作和形成共识，不替代团队表达 |
+| essential / accidental complexity | 本质 / 偶然复杂性 | 问题本身的困难与人为添加的困难 |
+| the 4 C’s of architecture | 架构的四个 C | 沟通、协作、清晰、简洁 |
+| data mesh | 数据网格（data mesh） | 按第 23 章原文解释，区别于内存 data grid |
+| brown-bag lunch | 午餐分享 | 利用午餐时段交流技术或方法的非正式活动 |
+| flow | 心流 | 本章指专注投入问题、较少感到时间流逝的状态 |
