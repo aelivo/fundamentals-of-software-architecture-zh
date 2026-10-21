@@ -171,3 +171,14 @@
 | orchestration engine | 编排引擎 | 组合服务并协调工作流与事务边界 |
 | integration hub | 集成枢纽 | 集成定制、套装与遗留软件系统 |
 | canonical representation | 规范化表示 | 本章将不同业务中的客户合并为统一模型 |
+| microservices architecture | 微服务架构 | 以领域边界和高度解耦为主导的分布式架构 |
+| operational reuse | 运行层面的复用 | 将运行关注点复用与领域行为复用区分 |
+| sidecar pattern | 边车模式 | 将公共运行能力置于与服务相伴的独立组件 |
+| service mesh | 服务网格 | 连接服务运行组件并提供统一运行控制的机制 |
+| service plane | 服务平面 | 按本书原词保留，不自动替换为产品的控制平面术语 |
+| service discovery | 服务发现 | 定位服务实例；与扩容的协作依赖具体实现 |
+| microfrontend | 微前端 | 在用户界面层按服务或领域边界划分组件 |
+| protocol-aware heterogeneous interoperability | 协议感知的异构互操作性 | 不同技术栈服务了解协议并互相调用 |
+| domain/architecture isomorphism | 领域与架构的同构性 | 问题结构与架构风格拓扑的匹配 |
+| front controller pattern | 前端控制器模式 | 本章指服务在自身职责之外承担工作流协调 |
+| compensating transaction framework | 补偿事务框架 | 通过业务撤销协调已完成操作，不等同数据库回滚 |
