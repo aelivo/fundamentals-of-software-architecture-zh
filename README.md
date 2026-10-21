@@ -23,12 +23,13 @@
 | 第 15 章 空间架构风格 | [译稿](chapters/15-space-based-architecture/translation.md) | [笔记](chapters/15-space-based-architecture/notes.md) | 全文已翻译并校订（书内第 211–234 页）；含 15 幅原图、冲突率公式及算例、缓存选择表和评分表中文转录 |
 | 第 16 章 编排驱动的面向服务架构 | [译稿](chapters/16-orchestration-driven-soa/translation.md) | [笔记](chapters/16-orchestration-driven-soa/notes.md) | 全文已翻译并校订（书内第 235–243 页）；含 5 幅原图与评分表中文转录 |
 | 第 17 章 微服务架构 | [译稿](chapters/17-microservices-architecture/translation.md) | [笔记](chapters/17-microservices-architecture/notes.md) | 全文已翻译并校订（书内第 245–265 页）；含 13 幅原图与评分表中文转录 |
+| 第 18 章 选择合适的架构风格 | [译稿](chapters/18-choosing-architecture-style/translation.md) | [笔记](chapters/18-choosing-architecture-style/notes.md) | 全文已翻译并校订（书内第 267–277 页）；含 4 幅案例原图及中文标签对照 |
 
 [第一部分导言：基础](parts/01-foundations.md)与[第二部分导言：架构风格](parts/02-architecture-styles.md)已翻译。
 
 ## 下一处翻译
 
-第 18 章 Choosing the Appropriate Architecture Style（选择合适的架构风格），书内第 267 页，PDF 第 287 页，从第一段开始。第 1–17 章已完成；第 18 章及以后尚未翻译。
+第三部分导言（PDF 第 299 页）与第 19 章 Architecture Decisions（架构决策），书内第 281 页，PDF 第 301 页，从第一段开始。第 1–18 章已完成；第 19 章及以后尚未翻译。
 
 ## 原文定位
 

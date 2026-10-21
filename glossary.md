@@ -182,3 +182,6 @@
 | domain/architecture isomorphism | 领域与架构的同构性 | 问题结构与架构风格拓扑的匹配 |
 | front controller pattern | 前端控制器模式 | 本章指服务在自身职责之外承担工作流协调 |
 | compensating transaction framework | 补偿事务框架 | 通过业务撤销协调已完成操作，不等同数据库回滚 |
+| Backends for Frontends (BFF) | 面向前端的后端 | 针对不同前端适配后端输出 |
+| semantic coupling | 语义耦合 | 业务含义或上下文使各部分相互依赖 |
+| race condition | 竞态条件 | 结果依赖并发执行时序 |
