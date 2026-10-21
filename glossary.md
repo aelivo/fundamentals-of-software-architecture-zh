@@ -165,3 +165,9 @@
 | front cache / full backing cache | 前端缓存 / 完整后备缓存 | 本地子集与外部完整数据集 |
 | eviction policy | 淘汰策略 | 缓存需要空间时选择移除条目的规则 |
 | on-premises | 本地部署 | 相对云端，部署在组织本地环境 |
+| orchestration-driven service-oriented architecture | 编排驱动的面向服务架构 | 第 16 章中央编排与企业级复用模型 |
+| enterprise service bus (ESB) | 企业服务总线 | 本章兼任集成枢纽和编排入口 |
+| business / enterprise / application / infrastructure services | 业务 / 企业 / 应用 / 基础设施服务 | 本章服务分类体系中的四种职责 |
+| orchestration engine | 编排引擎 | 组合服务并协调工作流与事务边界 |
+| integration hub | 集成枢纽 | 集成定制、套装与遗留软件系统 |
+| canonical representation | 规范化表示 | 本章将不同业务中的客户合并为统一模型 |
