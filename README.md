@@ -2,6 +2,10 @@
 
 基于 Mark Richards、Neal Ford 的 *Fundamentals of Software Architecture: An Engineering Approach*（英文第一版，2020）。本工程用于个人学习，译文与学习笔记分别维护。
 
+## 质量校译
+
+正在按原书顺序重新检查译文的完整性、准确性和中文表达。详见[本轮校译进度](reviews/progress.md)。下表保留初稿阶段的完成范围，不代表全书已通过本轮质量校译。
+
 ## 阅读进度
 
 | 章节 | 译稿 | 学习笔记 | 进度 |
