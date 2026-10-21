@@ -252,3 +252,6 @@
 
 
 第 8 章校译用语：Purchase 为“购买”，BidCapture 为“出价捕获”，Auctioneer Capture 为“拍卖师出价捕获”，Bidder 为“竞拍者”；Rational Unified Process 保留 Rational，译为“Rational 统一过程”。discrete workflows 在本章译为“各个工作流”，与原文明写 independent 的情形区分。
+
+
+第 9 章校译用语：unitary architecture 暂译“单机一体式架构”，与“单体架构”区分；stamp coupling 为“印记耦合”，transport cost 为“传输成本”。“最终一致性”“Saga”“BASE”按本章原文保留，并以译注说明作者概括的适用边界。
