@@ -237,3 +237,6 @@
 本轮第 1 章统一用语：Persistence Layer 为“持久化层”，Workflow Owner 为“工作流所有者”，negotiation 在本章语境译为“协商”。其他章节在各自校译时同步核对，不表示已完成全书术语检查。
 
 第 2 章校译用语：Bid Producer / Bid Capture / Bid Tracking / Bid Analytics 分别为“出价生成／出价捕获／出价跟踪／出价分析”；bidder 为“竞拍者”，publish-and-subscribe 为“发布—订阅”。Capture 不仅是 receive，不再译为“接收”。本次只核对该章，其他章节随后逐章统一。
+
+
+第 4 章校译用语：discrete components 译为“彼此分立的组件”，不额外推导为组件没有依赖或可独立部署。nonfunctional requirements 仍为“非功能性需求”；作者对英文词义的顾虑另用译注说明。
