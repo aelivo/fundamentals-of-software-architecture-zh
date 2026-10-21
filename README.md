@@ -29,12 +29,13 @@
 | 第 21 章 绘制与展示架构 | [译稿](chapters/21-diagramming-and-presenting/translation.md) | [笔记](chapters/21-diagramming-and-presenting/notes.md) | 全文已翻译并校订（书内第 315–324 页）；含 4 幅原图及中文标签对照 |
 | 第 22 章 让团队高效工作 | [译稿](chapters/22-making-teams-effective/translation.md) | [笔记](chapters/22-making-teams-effective/notes.md) | 全文已翻译并校订（书内第 325–346 页）；含 13 幅原图、2 张评分表及清单全文转录 |
 | 第 23 章 协商与领导技能 | [译稿](chapters/23-negotiation-and-leadership/translation.md) | [笔记](chapters/23-negotiation-and-leadership/notes.md) | 全文已翻译并校订（书内第 347–363 页）；含 5 幅原图、可用性表与完整对话译文 |
+| 第 24 章 规划职业发展道路 | [译稿](chapters/24-developing-a-career-path/translation.md) | [笔记](chapters/24-developing-a-career-path/notes.md) | 全文已翻译并校订（书内第 365–372 页）；含 3 幅原图及中文标签对照 |
 
 [第一部分导言：基础](parts/01-foundations.md)与[第二部分导言：架构风格](parts/02-architecture-styles.md)、[第三部分导言：技术与软技能](parts/03-techniques-and-soft-skills.md)已翻译。
 
 ## 下一处翻译
 
-第 24 章 Developing a Career Path（规划职业发展道路），书内第 365 页，PDF 第 385 页，从第一段开始。第 1–23 章已完成；第 24 章及以后尚未翻译。
+附录 Self-Assessment Questions（自我评估问题），书内第 373 页，PDF 第 393 页，从第 1 章问题开始。正文第 1–24 章及三个分部导言已完成；附录与前置材料尚未翻译。
 
 ## 原文定位
 

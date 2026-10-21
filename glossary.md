@@ -222,3 +222,8 @@
 | data mesh | 数据网格（data mesh） | 按第 23 章原文解释，区别于内存 data grid |
 | brown-bag lunch | 午餐分享 | 利用午餐时段交流技术或方法的非正式活动 |
 | flow | 心流 | 本章指专注投入问题、较少感到时间流逝的状态 |
+| 20-minute rule | 二十分钟法则 | 每天至少留二十分钟持续学习、维护广度 |
+| personal technology radar | 个人技术雷达 | 持续记录技术判断与探索阶段的工具 |
+| Hold / Assess / Trial / Adopt | 暂缓 / 评估 / 试用 / 采用 | 本章雷达由外至内的四个环 |
+| strong / weak / potential links | 强 / 弱 / 潜在联系 | 本章社交关系的三个层次 |
+| technology portfolio | 技术组合 | 将技能与技术投入作为整体规划 |
