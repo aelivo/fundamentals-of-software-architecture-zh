@@ -22,7 +22,7 @@
 | engineering practices | 工程实践 | 与团队组织和互动的流程区分 |
 | continuous integration | 持续集成 | 可保留缩写 CI |
 | continuous delivery | 持续交付 | 书名保持英文对应 |
-| cyclomatic complexity | 圈复杂度 | 第 1 章策略模式例子 |
+| cyclomatic complexity | 圈复杂度 | 基于控制流图度量线性独立路径的数量；第 6 章原书的节点、边与扇出说明存在问题，见该章译注 |
 | application silo | 应用孤岛 | 本章指数据库只能由所属应用访问 |
 | elastic scale | 弹性伸缩 | 根据需要增减资源实例 |
 | scalability | 可扩展性 | 与弹性区分 |
