@@ -18,7 +18,7 @@
 | fitness function | 适应度函数 | 第 1 章以演化计算为背景引入 |
 | architectural fitness function | 架构适应度函数 | 客观验证架构特性是否得到保持 |
 | evolutionary architecture | 演进式架构 | 保持术语一致 |
-| architectural quantum | 架构量子 | 本章仅引入，第 7 章再展开 |
+| architectural quantum | 架构量子 | 可独立部署、具有高功能内聚性和同步共变性的制品；按本版第 7 章定义，不简化为一个服务 |
 | engineering practices | 工程实践 | 与团队组织和互动的流程区分 |
 | continuous integration | 持续集成 | 可保留缩写 CI |
 | continuous delivery | 持续交付 | 书名保持英文对应 |
