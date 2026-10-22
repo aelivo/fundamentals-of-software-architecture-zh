@@ -121,7 +121,7 @@
 | layers of isolation | 隔离层 | 契约不变时隔离层内部变化 |
 | architecture sinkhole | 架构陷坑 | 请求逐层透传而无实质逻辑 |
 | mean time to recovery (MTTR) | 平均恢复时间 | 原书讨论单体恢复成本 |
-| mock / stub | 模拟 / 存根替代 | 用于隔离测试组件或层 |
+| mock / stub | 模拟对象 / 桩件（存根） | 两类测试替身；本章用于隔离测试组件或整层，不将两者混为一类 |
 | pipeline architecture | 管道架构 | 又称管道与过滤器架构 |
 | pipe / filter | 管道 / 过滤器 | 通信通道与处理步骤 |
 | producer / transformer / tester / consumer | 生产者 / 转换器 / 测试器 / 消费者 | 本章四类过滤器 |
