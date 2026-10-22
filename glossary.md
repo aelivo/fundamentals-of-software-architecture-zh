@@ -42,7 +42,7 @@
 | Frozen Caveman Anti-Pattern | 冰冻穴居人反模式 | 被过往经历固化的担忧左右架构判断 |
 | topic | 主题 | 发布订阅消息模型中的目的地 |
 | queue | 队列 | 本章点对点消息模型中的目的地 |
-| contract | 契约 | 服务所接受的数据与约定 |
+| contract | 契约 | 客户端与服务共同约定的行为和数据；不只包含数据格式 |
 | homogeneous / heterogeneous contracts | 同构 / 异构契约 | 所有消费者相同或可按消费者分别定义 |
 | programmatic load balancing | 程序化负载均衡 | 通过程序实施的负载均衡 |
 | bottleneck trap | 瓶颈陷阱 | 架构师负责关键路径代码而阻塞团队 |

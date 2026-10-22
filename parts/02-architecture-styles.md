@@ -1,7 +1,8 @@
 # 第二部分 架构风格
 
 > 来源：英文第一版第二部分扉页，PDF 第 137 页。
-> 校译进度：本轮已完成逐句对照与中文通读；详见[校译记录](../reviews/part-02-intro-review.md)。
+> 上一轮校译记录：[校译记录](../reviews/part-02-intro-review.md)。
+> 独立复审：PDF137两段已完成原文对照及中文通读，无须修改正文，见[本次报告](../reviews/independent-pass/chapter-09.md)。
 
 <!-- P02-001 -->
 
