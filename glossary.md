@@ -232,7 +232,7 @@
 
 | 英文 | 当前译法 | 校译依据 |
 | --- | --- | --- |
-| rates rally | 利率市场走强 | 保留英文；避免误解为利率数值上升，核验资料见 [第 1 章校译记录](reviews/chapter-01-review.md) |
+| rates rally | 利率市场走强 | 保留英文；避免误解为利率数值上升，本次独立核验与资料见 [第 1 章独立复审](reviews/independent-pass/chapter-01.md)；原核验记录保留 |
 | evolutionary（架构评分） | 可演进性 | 第 10–17 章评分表统一，区别于单次变更的敏捷性 |
 | Bid Capture / Bid Tracker / Bid Streamer | 出价捕获 / 出价跟踪 / 出价流传输 | 同名组件跨章一致；Bidder Tracker 原图差异保留为竞拍者跟踪 |
 | techniques（第三部分） | 方法 | 区别于 technical aspects，见分部导言校译记录 |
