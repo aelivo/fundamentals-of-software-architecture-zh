@@ -2,7 +2,8 @@
 
 > 原文章名：Microkernel Architecture Style
 > 来源：英文第一版，书内第 149–161 页，PDF 第 169–181 页。
-> 进度：第十二章全文已完成本轮逐段质量校译；[校译记录](../../reviews/chapter-12-review.md)，独立复审待进行。
+> 上一轮校译记录：[校译记录](../../reviews/chapter-12-review.md)。
+> 独立复审：已完成原文逐段对照、中文通读与相关附件检查，见[本次报告](../../reviews/independent-pass/chapter-12.md)。
 > 保留英文原图及代码片段，评分附中文转录；下文页码均指原书书内页码。代码为原书示意，未作为可运行工程验证。
 
 <!-- 书内第 149 页，PDF 第 169 页。 -->
@@ -78,7 +79,7 @@ public void assessDevice(String deviceID) {
 
 <!-- CH12-010 | PDF p. 171 | 正文 -->
 
-根据规模与复杂度，核心可以实现为分层架构或模块化单体，如图 12-2。有时，核心也可拆为独立部署的领域服务，每个服务含专属于该领域的插件。例如，支付处理领域服务代表核心，各种支付方法，如信用卡、PayPal、店内信用额度、礼品卡和采购订单，分别作为支付领域插件。上述各种情况，整个单体应用通常共享一个数据库。
+根据规模与复杂度，核心可以实现为分层架构或模块化单体，如图 12-2。有时，核心也可拆为独立部署的领域服务，每个服务含专属于该领域的插件。例如，支付处理领域服务代表核心，各种支付方法，如信用卡、PayPal、店内抵用余额（store credit）、礼品卡和采购订单，分别作为支付领域插件。上述各种情况，整个单体应用通常共享一个数据库。
 
 <!-- 书内第 152 页，PDF 第 172 页。 -->
 
@@ -196,7 +197,7 @@ static {
 
 <!-- CH12-026 | PDF p. 178 | 正文 -->
 
-同一领域的插件与核心之间，通常使用标准契约，包含行为、输入数据和返回输出。第三方插件使用无法控制的契约时，可能出现定制契约。这时，常在插件契约与标准契约之间创建适配器，让核心不必为每个插件编写专门代码。
+同一领域的插件与核心之间，通常使用标准契约，包含行为、输入数据和返回输出。定制契约通常出现在插件由第三方开发、而我们无法控制其契约的情况下。这时，常在插件契约与标准契约之间创建适配器，让核心不必为每个插件编写专门代码。
 
 <!-- CH12-027 | PDF p. 178 | 正文 -->
 
@@ -231,7 +232,7 @@ public class AssessmentOutput {
 
 <!-- CH12-031 | PDF p. 178 | 正文 -->
 
-许多用于开发和发布软件的工具都采用微内核，例如 [Eclipse IDE](https://www.eclipse.org/ide)、[PMD](https://pmd.github.io)、[Jira](https://www.atlassian.com/software/jira) 和 [Jenkins](https://jenkins.io)。Chrome、Firefox 等浏览器也是常见产品例子：查看器和其他插件增加基本浏览器核心原本不具备的能力。产品软件的例子不胜枚举，那大型业务应用呢？同样适用。以保险公司的理赔处理为例。
+大多数用于开发和发布软件的工具都采用微内核，例如 [Eclipse IDE](https://www.eclipse.org/ide)、[PMD](https://pmd.github.io)、[Jira](https://www.atlassian.com/software/jira) 和 [Jenkins](https://jenkins.io)。Chrome、Firefox 等浏览器也是常见产品例子：查看器和其他插件增加基本浏览器核心原本不具备的能力。产品软件的例子不胜枚举，那大型业务应用呢？同样适用。以保险公司的理赔处理为例。
 
 <!-- 书内第 159 页，PDF 第 179 页；上一段跨页。 -->
 
@@ -309,7 +310,7 @@ public class AssessmentOutput {
 
 <!-- CH12-044 | PDF p. 181 | 正文 -->
 
-性能也是一项有趣的评分。我们给三星，主要因为微内核应用通常较小，不像许多分层应用那么庞大，也较少受到第 10 章架构陷坑的影响。还可以移除不必要功能，使应用更快。[WildFly](https://wildfly.org)，前身为 JBoss Application Server，是个好例子：移除不必要的集群、缓存、消息等功能，应用服务器会比保留这些功能时运行得更快。
+为微内核架构的性能评分，总是颇有意思。我们给三星，略高于一般水平，主要因为微内核应用通常较小，不像大多数分层应用那么庞大，也较少受到第 10 章架构陷坑的影响。还可以移除不必要功能，使应用更快。[WildFly](https://wildfly.org)，前身为 JBoss Application Server，是个好例子：移除不必要的集群、缓存、消息等功能，应用服务器会比保留这些功能时运行得更快。
 
 ---
 
@@ -321,7 +322,7 @@ public class AssessmentOutput {
 
 ### 图 12-2
 
-分层核心系统，技术划分（Layered Core System (Technically Partitioned)）：表现层（Presentation Layer）、业务层（Business Layer）、持久层（Persistence Layer）。模块化核心系统，领域划分（Modular Core System (Domain Partitioned)）：领域组件（Domain Component）。其他标签同图 12-1。
+分层核心系统，技术划分（Layered Core System (Technically Partitioned)）：表现层（Presentation Layer）、业务层（Business Layer）、持久化层（Persistence Layer）。模块化核心系统，领域划分（Modular Core System (Domain Partitioned)）：领域组件（Domain Component）。其他标签同图 12-1。
 
 ### 图 12-3
 

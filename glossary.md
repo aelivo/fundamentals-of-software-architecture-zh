@@ -129,6 +129,7 @@
 | microkernel / plug-in architecture | 微内核 / 插件架构 | 稳定核心与独立插件协作 |
 | core system | 核心系统 | 运行所需最小功能或通用流程 |
 | plug-in registry | 插件注册表 | 记录插件及访问方式 |
+| store credit | 店内抵用余额 | 第12章支付方法语境；商店给予客户用于本店付款的金额，避免误读为贷款授信额度 |
 | happy path | 正常路径 | 通用且无特殊异常或定制的处理流程 |
 | adapter | 适配器 | 将第三方契约转换为核心标准契约 |
 | service-based architecture | 基于服务的架构 | 本书粗粒度领域服务风格，与 SOA、微服务分别讨论 |
