@@ -27,3 +27,5 @@
 - 第11章PDF164、166、167–168：tester类比reduce、Service Info／Metrics Capture两名、模块化前后张力经页面／源文确认，保留提示，不推断作者勘误；本章评分按单体管道语境理解。
 - 第12章PDF170–171、174、177：原书Java缺括号／DevicePlugin大小写／静态字段引用／同键覆盖及plug-in模板异名均核页保留提示。PDF180将extensibility列为弱项、181又给其三星，图表列Evolutionary三星及Elasticity一星而无Extensibility行；不猜测替换词，保留译注。关于唯一可作两种划分、单量子及工具行为的断言仍属作者语境。
 - 第13章PDF192称vertical line、193图为横向线；197两次both称编排和协同required／necessary，正文恢复后仍以译注说明不可直接认作每个工作流同时采用两机制的普遍规则。ACID／BASE、公共库变更及共享库／UI量子等仍按本版假设保留；尚无作者明确勘误。
+- 第14章PDF208 BMP／BPM、212图14-10的apply-payment／fulfill-order、225等待方consumer／图14-20和14-21右侧producer标签、226临时队列图CID残留均核页，保留原图及明确提示。228的request在上下文指消费者应答，源词差异记于chapter-14。
+- 第14章PDF216图14-13两个25ms与正文3,025ms的合计关系未明确，已加译注，不猜应为3,050ms。PDF221数据错误／222直接以ACID提交解决省略前提，对照PostgreSQL12明确译注；端到端确认／LPS的完整故障保证未经实现验证，不能据本章概括认证恰好一次。
