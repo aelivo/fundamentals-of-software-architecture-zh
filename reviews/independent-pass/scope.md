@@ -32,7 +32,7 @@
 | 第 22 章 | 325–346 | 345–366 | `chapters/22-making-teams-effective/translation.md` 与 `notes.md` | 待核 |
 | 第 23 章 | 347–363 | 367–383 | `chapters/23-negotiation-and-leadership/translation.md` 与 `notes.md` | 待核 |
 | 第 24 章 | 365–372 | 385–392 | `chapters/24-developing-a-career-path/translation.md` 与 `notes.md` | 待核 |
-| 附录自测题 | 373–382 | 393–402 | `appendices/01-self-assessment-questions.md` | 待核 |
+| 附录自测题 | 373–381 | 393–401 | `appendices/01-self-assessment-questions.md` | 待核 |
 
 ## 相关材料
 
@@ -41,6 +41,7 @@
 - 书内 21–22、117–118、279–280 附近包含分部扉页／空白页；不得误作章节内容遗漏。
 - 版权与出版信息（PDF 6）、原书目录（PDF 7–14）、索引（PDF 403–422）不补译；版权页已用于来源识别。
 - 译注随正文核查，学习解释保留在笔记，不混入作者正文。
+- 追加空白页检查：PDF 20、42、138、300、402 均无文本；附录内容至 PDF 401 / 381，第402页为空白，不计为漏译。
 
 ## 源文件指纹
 

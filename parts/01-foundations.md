@@ -2,6 +2,7 @@
 
 > 来源：英文第一版第一部分扉页，PDF 第 41 页。
 > 校译进度：本轮已完成逐句对照与中文通读；详见[校译记录](../reviews/chapter-02-review.md)。
+> 独立复审：本导言已对照原文并单独通读，见[独立复审记录](../reviews/independent-pass/chapter-02.md)。
 
 <!-- P01-001；PDF 第 41 页。 -->
 
