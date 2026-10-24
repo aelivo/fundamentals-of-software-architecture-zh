@@ -8,33 +8,36 @@ import json
 import re
 from pathlib import Path
 
-import pymupdf
+from PIL import Image
+from pypdf import PdfReader
 
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--chapter', type=int)
+parser.add_argument('--pdf', type=Path, help='Explicit source PDF; defaults to the project or its parent.')
 args = parser.parse_args()
 root = Path(__file__).resolve().parents[2]
-pdf_path = root.parent / 'Fundamentals of Software Architecture An Engineering Approach (Mark Richards, Neal Ford) (Z-Library).pdf'
-pdf = pymupdf.open(pdf_path)
+pdf_name = 'Fundamentals of Software Architecture An Engineering Approach (Mark Richards, Neal Ford) (Z-Library).pdf'
+pdf_path = args.pdf or next((p for p in (root / pdf_name, root.parent / pdf_name) if p.is_file()), None)
+if pdf_path is None:
+    parser.error('Source PDF not found; supply --pdf.')
+pdf = PdfReader(pdf_path)
 
-def signature(pix):
-    if pix.alpha:
-        pix = pymupdf.Pixmap(pix, 0)
-    if pix.colorspace.n != 3:
-        pix = pymupdf.Pixmap(pymupdf.csRGB, pix)
-    return (pix.width, pix.height, hashlib.sha256(pix.samples).hexdigest())
+def signature(image):
+    rgb = image.convert('RGB')
+    return (*rgb.size, hashlib.sha256(rgb.tobytes()).hexdigest())
 
 caption_pages = {}
 image_pages = {}
 cached = {}
-for page_no, page in enumerate(pdf, 1):
-    for chapter, number in re.findall(r'^Figure[ \t]+(\d+)-(\d+)\.[ \t]+\S', page.get_text(), re.M):
+for page_no, page in enumerate(pdf.pages, 1):
+    for chapter, number in re.findall(r'^Figure[ \t]+(\d+)-(\d+)\.[ \t]+\S', page.extract_text(), re.M):
         caption_pages.setdefault((int(chapter), int(number)), set()).add(page_no)
-    for info in page.get_images():
-        xref = info[0]
-        if xref not in cached:
-            cached[xref] = signature(pymupdf.Pixmap(pdf, xref))
-        image_pages.setdefault(cached[xref], set()).add(page_no)
+    for embedded in page.images:
+        ref = embedded.indirect_reference
+        key = (ref.idnum, ref.generation) if ref else (page_no, embedded.name)
+        if key not in cached:
+            cached[key] = signature(embedded.image)
+        image_pages.setdefault(cached[key], set()).add(page_no)
 
 results = []
 for path in sorted((root / 'chapters').glob('*/images/figure-*.png')):
@@ -45,7 +48,8 @@ for path in sorted((root / 'chapters').glob('*/images/figure-*.png')):
     if args.chapter is not None and key[0] != args.chapter:
         continue
     expected = caption_pages.get(key, set())
-    identical = image_pages.get(signature(pymupdf.Pixmap(str(path))), set())
+    with Image.open(path) as figure:
+        identical = image_pages.get(signature(figure), set())
     results.append({
         'file': path.relative_to(root).as_posix(),
         'caption_pdf_pages': sorted(expected),

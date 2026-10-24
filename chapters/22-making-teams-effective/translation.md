@@ -579,4 +579,4 @@ Atul Gawande 医生写过一本优秀的书，[*The Checklist Manifesto*](https:
 | 图 22-13 | Special purpose → 专用；General purpose → 通用；Framework → 框架；Developer approval → 开发者批准；Architect approval → 架构师批准；Architect decision → 架构师决策 |
 
 <!-- CH22-161 | PDF p. 366 | 译注 -->
-> 译注：本章的团队评分、检查清单和审批边界都是作者的建议或示例。译稿保留作者对行为和团队的概括，具体适用性在独立笔记中讨论。
+> 译注：本章的团队评分、检查清单和审批边界都是作者的建议或示例。译稿保留作者对行为和团队的概括，实际应用需结合具体团队与项目判断。

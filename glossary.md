@@ -4,7 +4,7 @@
 | --- | --- | --- |
 | software architecture | 软件架构 | 全书统一 |
 | software architect | 软件架构师 | 首次出现保留英文 |
-| career path | 职业发展路径 | 第 1 章第一段 |
+| career path | 职业发展路径／职业发展道路 | 第 1 章用“路径”，第 24 章章名用“道路”，均指职业发展的路线 |
 | nurse practitioner | 高级执业护士 | 区别于泛指的护士 |
 | finance manager | 财务经理 | 第 1 章第一段 |
 | architecture characteristics | 架构特性 | “-ilities”泛指各类质量特性；按原文语境处理 |
@@ -26,6 +26,10 @@
 | application silo | 应用孤岛 | 本章指数据库只能由所属应用访问 |
 | elastic scale | 弹性伸缩 | 根据需要增减资源实例 |
 | scalability | 可扩展性 | 与弹性区分 |
+| elasticity | 弹性 | 应对负载突增或变化；与 scalability 的规模增长、extensibility 的新增功能区分 |
+| extensibility | 可扩充性 | 增加功能或扩充行为；architectural extensibility 见下 |
+| fault tolerance | 容错性 | 发生故障时仍能按预期运行；不等同于完全不会故障 |
+| agility / testability / deployability | 敏捷性 / 可测试性 / 可部署性 | 第 10–17 章架构评分的独立维度，不与可演进性合并 |
 | availability | 可用性 | 与可靠性区分 |
 | reliability | 可靠性 | 与可用性区分 |
 | accidental complexity | 偶然复杂性 | 第 1 章运维讨论 |
@@ -171,7 +175,7 @@
 | business / enterprise / application / infrastructure services | 业务 / 企业 / 应用 / 基础设施服务 | 本章服务分类体系中的四种职责 |
 | orchestration engine | 编排引擎 | 组合服务并协调工作流与事务边界 |
 | integration hub | 集成枢纽 | 集成定制、套装与遗留软件系统 |
-| canonical representation | 规范化表示 | 本章将不同业务中的客户合并为统一模型 |
+| canonical representation | 规范化表示 | 第 16 章将不同业务中的客户合并为统一模型，不指数据库关系规范化 |
 | microservices architecture | 微服务架构 | 以领域边界和高度解耦为主导的分布式架构 |
 | operational reuse | 运行层面的复用 | 将运行关注点复用与领域行为复用区分 |
 | sidecar pattern | 边车模式 | 将公共运行能力置于与服务相伴的独立组件 |
